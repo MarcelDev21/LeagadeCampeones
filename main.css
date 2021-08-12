@@ -1,0 +1,164 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.tete{
+    background-color: rgba(0, 0, 0, 0.774);
+    height: 300px;
+}
+.img2{
+    height: 160px;
+    margin-left: 150px;
+    margin-top: 10px;
+}
+.leagueCampeon{
+    color: antiquewhite;
+    margin-left: 70px;
+    margin-top: 100px;
+}
+.header2{
+    display: flex;
+}
+.monText{
+    display: flex;
+    justify-content: center;
+}
+.textP{
+    width: 500px;
+    text-align: center;
+}
+.card-group{
+    margin-right: 100px;
+    margin-left:100px ;
+ }
+ .card{
+    height: 400px;
+    margin: 20px;
+    margin-top: -5px;
+}
+.footer{
+    background-color: rgba(0, 0, 0, 0.774);
+    height: 90px;
+    margin-top: 10px;
+}
+.aside{
+    margin: 40px;
+} 
+.border_class{
+    height: 50px;
+}
+.spinner{
+    margin-top: 25%;
+    display: flex;
+    justify-content: center;
+}
+.img3{
+    width: 50px;
+    height: 50px;
+}
+.text-muted2{
+   margin-top: -10px;
+}
+.card-text1{
+    margin-top: -10px;
+}
+.card:hover{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+    transform:  translateY(-3%);
+    transition: all 400ms ease;
+}
+.facebook{
+    width: 15px;
+    height: 15px;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+}
+.wrapper .button{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    float: left;
+    margin: 15px;
+    background:antiquewhite;
+    overflow: hidden;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-out;
+}
+
+.wrapper .button:hover{
+    width: 200px;
+}
+
+.wrapper .button:nth-child(1):hover .icon{
+    background-color: #4267B2;
+}
+.wrapper .button:nth-child(2):hover .icon{
+    background-color: #FF0000;
+}
+
+.wrapper .button:nth-child(3):hover .icon{
+    background: #1DA1F2;
+}
+.wrapper .button:nth-child(4):hover .icon{
+    background-color: #E1306C;
+}
+/*span*/
+.wrapper .button:nth-child(1) span{
+    color: #4267B2;
+}
+.wrapper .button:nth-child(2) span {
+    color: #FF0000;
+}
+
+.wrapper .button:nth-child(3) span{
+    color: #1DA1F2;
+}
+.wrapper .button:nth-child(4) span{
+   color: #E1306C;
+}
+.wrapper .button .icon{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    border-radius: 50px;
+    box-sizing: border-box;
+    line-height: 60px;
+    transition: all 0.3s ease-out;
+  }
+
+  .wrapper .button .icon img{
+    font-size: 25px;
+    line-height: 60px;
+    transition: all 0.3s ease-out;
+  }
+
+ /* .wrapper .button span{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
+  }*/
+
+  .wrapper .button:hover .icon img{
+      color: #fff;
+  }
+   .hrefFooter{
+      text-decoration: none;
+      color: brown;
+  } 
+
+
+  
+
+
+
+
+
+
