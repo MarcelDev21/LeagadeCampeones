@@ -22,18 +22,24 @@ let top5
 function Partidos(partido) {
     let homeTeam, awayTeam, status, id, goal, matches
     let miArray = []
-    let tab
+   // let tab
 
-    for (let i = 0; i < partido.length; i++) {
+   /* for (let i = 0; i < partido.length; i++) {
         status = partido[i].status
         if (status != "FINISHED") {
-            //console.log("no seguir y mirar siguiente partido")
+            console.log("no seguir y mirar siguiente partido")
             continue
         }
-    }
+    }*/
 
     let duplicados = []
     for (let i = 0; i < partido.length; i++) {
+        status = partido[i].status
+            if (status != "FINISHED") {
+                //console.log("no seguir y mirar siguiente partido")
+                continue
+            }
+            
         for (let j = i + 1; j < partido.length; j++) {
             if (partido[i].homeTeam.id == partido[j].homeTeam.id) {
                 if (duplicados.indexOf(partido[i].homeTeam.id) == -1) {

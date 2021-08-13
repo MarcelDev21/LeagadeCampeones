@@ -159,10 +159,30 @@ for(let i =0; i<position.length;i++){
  function BuscarElemento(partidos){
     let inputBusqueda = document.getElementById("mySearch").value
     //console.log("mensage"+inputBusqueda)
+    let myBoolean = true
     if(inputBusqueda == ""){
       RecupèreApi(partidos)
     }
 
+
+   
+    /*for(let i =0; i<partidos.length;i++){
+       let homeTeam = partidos[i].homeTeam.name
+        if(inputBusqueda != homeTeam){
+           myBoolean = false
+           console.log("no conozco esta variable")
+        }
+        if(inputBusqueda === homeTeam){
+           myBoolean
+        }
+    }
+
+    if(myBoolean === false){
+       console.log(myBoolean)
+       console.log("no conozco esta variable")
+       alert("No conozco el valor que habeis entrado")
+        return RecupèreApi(partidos)
+    }*/
     
           
     let miTablaFiltrada = partidos.filter((item) => {
@@ -173,6 +193,11 @@ for(let i =0; i<position.length;i++){
     })
     //console.log(miTablaFiltrada)
        RecupèreApi(miTablaFiltrada)
+
+
+
+
+
  }
 
       let buttonBusqueda = document.getElementById("button")
